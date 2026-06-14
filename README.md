@@ -23,6 +23,8 @@ Unofficial plugin for [SignalRGB](https://www.signalrgb.com/) that enables full,
 6. Place the `AsusRogLcIII.js` file inside the Plugins folder or in Asus folder *Alternatively*.
 7. **Launch SignalRGB**.
 8. Go to the **Devices** tab. Your "ASUS ROG LC III Pump Cover" should now appear and be fully controllable!
+### ⚠️ Note on Updates ⚠️
+SignalRGB creates a new application folder with each update (e.g., `app-2.5.66` → `app-2.5.68`). If you installed the plugin in the `AppData\Local\VortxEngine` path, you'll need to copy it to the new version's folder after updating. **Using the `Documents\WhirlwindFX\Plugins` path avoids this issue entirely.**
 
 ## Technical Details (For Developers)
 This plugin was reverse-engineered by analyzing USB HID traffic from ASUS Armoury Crate using Wireshark/USBPcap.
